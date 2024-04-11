@@ -8,7 +8,7 @@ class Input {
         int z = 98;
         // > < == >= <= 1=
 
-        boolean compare = !(x > y || y < z) ;
+        boolean compare = x > y && y < z ;
         System.out.println(compare);
     }
 }
