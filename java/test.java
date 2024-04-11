@@ -3,10 +3,12 @@ import java.util.Scanner;
 class Input {
     public static void main(String[]args){
 
-        Scanner input = new Scanner(System.in);
+        int x = 8;
+        int y = 9;
+        int z = 98;
+        // > < == >= <= 1=
 
-        System.out.print("Enter an integer: ");
-        int number = input.nextInt();
-        System.out.println("You entered "+ number);
+        boolean compare = !(x > y || y < z) ;
+        System.out.println(compare);
     }
 }
